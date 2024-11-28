@@ -1,0 +1,6 @@
+# MANIFEST.in
+include LICENSE
+include README.md
+recursive-include my_graphgps/data *.py *.txt
+recursive-include my_graphgps/network *.py
+recursive-include my_graphgps/training *.py
